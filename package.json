@@ -1,6 +1,7 @@
 {
   "name": "typescript",
   "version": "1.0.0",
+  "typings": "./globals.d.ts",
   "description": "",
   "main": "index.js",
   "scripts": {
