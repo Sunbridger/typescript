@@ -9,6 +9,6 @@
         "lib":["dom","es2015"]
     },
     "include": [
-        "./src/**/*"
+        "./src/**/*", "src/App.tsx"
     ]
 }

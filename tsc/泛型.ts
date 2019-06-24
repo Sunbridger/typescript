@@ -28,4 +28,6 @@ function fn4<t extends Len>(msg:t):t{
     return msg;
 }
 fn4({length:5})
+
+
 export {}

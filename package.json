@@ -1,5 +1,5 @@
 {
-  "name": "typescript",
+  "name": "my-ts",
   "version": "1.0.0",
   "typings": "./globals.d.ts",
   "description": "",
@@ -17,5 +17,18 @@
   "bugs": {
     "url": "https://github.com/Sunbridger/typescript/issues"
   },
-  "homepage": "https://github.com/Sunbridger/typescript#readme"
+  "homepage": "https://github.com/Sunbridger/typescript#readme",
+  "dependencies": {
+    "@types/react": "^16.8.22",
+    "@types/react-dom": "^16.8.4",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "devDependencies": {
+    "awesome-typescript-loader": "^5.2.1",
+    "source-map-loader": "^0.2.4",
+    "typescript": "^3.5.2",
+    "webpack": "^4.35.0",
+    "webpack-cli": "^3.3.5"
+  }
 }
