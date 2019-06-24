@@ -33,3 +33,4 @@ var Font;
 })(Font || (Font = {}));
 console.log(Font.flaga === 1);
 getName('xx');
+console.log(P.getName('xxx'));

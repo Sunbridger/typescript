@@ -18,6 +18,9 @@ var fn = function (n, a, g) {
 var fn2 = function (n, a, g) {
     return a > 10;
 };
+var aa = {
+    name: 'xxx'
+};
 // 注意参数必须严格遵守label这个接口的定义规范
 console.log(getInfo({ name: 'xxx', age: 6 }));
 console.log(getInfo({ name: 'aaa', age: 1, isgood: true }));

@@ -33,7 +33,12 @@ let fn2:fnInter=function(n,a,g){
 }
 
 
-
+interface ff<t>{
+    name:t;
+}
+let aa:ff<string>={
+    name:'xxx'
+}
 
 
 

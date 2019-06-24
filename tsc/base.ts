@@ -34,3 +34,4 @@ declare function create(o: object | null): void;
 
 getName('xx');
 
+console.log(P.getName('xxx'))
