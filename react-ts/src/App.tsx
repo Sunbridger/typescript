@@ -1,6 +1,8 @@
 import * as React from "react";
 import Hello from './components/Hello';
 import State from './components/State';
+import Antd from './components/Antd';
+import '../index.css'
 export default class App extends React.Component{
 
     render() {
@@ -11,6 +13,7 @@ export default class App extends React.Component{
         return <div>
             <Hello compiler="TypeScript" framework="React"  />
             <State info={obj} />
+            <Antd />
         </div>
     }
 }

@@ -21,8 +21,10 @@
   "dependencies": {
     "@types/react": "^16.8.22",
     "@types/react-dom": "^16.8.4",
+    "antd": "^3.19.8",
     "react": "^16.8.6",
-    "react-dom": "^16.8.6"
+    "react-dom": "^16.8.6",
+    "sunbridger-api-mv": "^1.0.1"
   },
   "devDependencies": {
     "awesome-typescript-loader": "^5.2.1",
