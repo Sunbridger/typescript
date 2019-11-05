@@ -14,6 +14,15 @@ function fn3(msg) {
 fn('xxx');
 fn2([1, 'xx']);
 fn3([1, 'xx']);
+var getDataFn = function (arg) {
+    var data;
+    data = {
+        name: 'xxx',
+        age: 12,
+        likes: ['xxx', 'aaa']
+    };
+    return data;
+};
 function fn4(msg) {
     return msg;
 }

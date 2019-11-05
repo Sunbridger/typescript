@@ -24,7 +24,7 @@ enum Color {Red, Green, Blue}
 let d: Color = Color.Green;
 console.log(d==1)
 enum Font {
-    flaga=1,
+    flaga=11,
     flagb=2,
     flagc='ccc'
 }
@@ -32,6 +32,8 @@ console.log(Font.flaga===1);
 
 declare function create(o: object | null): void;
 
-getName('xx');
+getName(90);
 
 console.log(P.getName('xxx'))
+
+let da:P.po={hashname: 'ss'}

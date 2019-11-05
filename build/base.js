@@ -32,5 +32,5 @@ var Font;
     Font["flagc"] = "ccc";
 })(Font || (Font = {}));
 console.log(Font.flaga === 1);
-getName('xx');
+getName(9);
 console.log(P.getName('xxx'));
