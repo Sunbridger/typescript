@@ -27,10 +27,11 @@ var d = Color.Green;
 console.log(d == 1);
 var Font;
 (function (Font) {
-    Font[Font["flaga"] = 1] = "flaga";
+    Font[Font["flaga"] = 11] = "flaga";
     Font[Font["flagb"] = 2] = "flagb";
     Font["flagc"] = "ccc";
 })(Font || (Font = {}));
 console.log(Font.flaga === 1);
-getName(9);
+getName(90);
 console.log(P.getName('xxx'));
+var da = { hashname: 'ss' };

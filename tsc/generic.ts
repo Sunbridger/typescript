@@ -104,12 +104,17 @@ const mustAll: MyRequired<Person> = {
 
 type pickSom = MyPick<MustApi, 'id'>; // 从MustApi 中获取id的属性
 
-type MyExclude<T, U> = T extends U ? never : T;
+type MyExclude22<T, U> = T extends U ? never : T;
 
 
-type MyOmit<T, K> = MyPick<T, MyExclude<keyof T, K>>;
+type MyOmit<T, K> = MyPick<T, MyExclude22<keyof T, K>>;
 
 type aasd = Omit<MustApi, 'id'>  // 从MustApi 中去除id的属性
 // omit的原理就是 从T中去除传入的一个key
 // 那就是获取出id之外的所有的属性 也就是pick所有的右值
 // 只需要对右值进行反选即可 <'a' | 'b', 'a'> //  T extends U ? nerve : T; b
+
+type IsNotAny<T> = 0 extends T ? false : true;
+
+// 0 是任何非any的子集
+const bool1: IsNotAny<null> = true
